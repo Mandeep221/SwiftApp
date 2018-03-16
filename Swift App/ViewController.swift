@@ -15,10 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var text1: UITextField!
     
     @IBAction func onClickButton(_ sender: Any) {
-        if self.newLabel.text == "jackass"{
-            print(text1.text!)
-        }
-        self.newLabel.text = "Mandeep Sarangal"
+        let a = "20.9"
+        let b = "10.8"
+        self.newLabel.text = "Sum is \(Double(a)!+Double(b)!)"
     }
     @IBOutlet weak var newLabel: UILabel!
     
