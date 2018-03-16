@@ -12,12 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var btnChange: UIButton!
     
+    @IBOutlet weak var text1: UITextField!
+    
     @IBAction func onClickButton(_ sender: Any) {
         if self.newLabel.text == "jackass"{
-            print("Love")
+            print(text1.text!)
         }
         self.newLabel.text = "Mandeep Sarangal"
-        print("Button tapped")
     }
     @IBOutlet weak var newLabel: UILabel!
     
