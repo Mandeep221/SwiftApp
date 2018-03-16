@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         if self.newLabel.text == "jackass"{
             print("Love")
         }
-        self.newLabel.text = "jackass"
-        print("Button clicked")
+        self.newLabel.text = "Zoran"
+        print("Button tapped")
     }
     @IBOutlet weak var newLabel: UILabel!
     
