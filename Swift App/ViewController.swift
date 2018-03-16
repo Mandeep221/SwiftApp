@@ -10,9 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnChange: UIButton!
+    
+    @IBAction func onClickButton(_ sender: Any) {
+        if self.newLabel.text == "jackass"{
+            print("Love")
+        }
+        self.newLabel.text = "jackass"
+        print("Button clicked")
+    }
+    @IBOutlet weak var newLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.brown
+        
     }
 
     override func didReceiveMemoryWarning() {
