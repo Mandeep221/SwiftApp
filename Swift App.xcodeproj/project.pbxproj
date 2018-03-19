@@ -16,6 +16,7 @@
 		A5033336205C125E00037A10 /* Swift_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5033335205C125E00037A10 /* Swift_AppUITests.swift */; };
 		A5033344205C4C3A00037A10 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5033343205C4C3A00037A10 /* SecondViewController.swift */; };
 		A5033346205C569500037A10 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5033345205C569500037A10 /* ThirdViewController.swift */; };
+		A588848020603334003AD7F2 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588847F20603334003AD7F2 /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A5033337205C125E00037A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5033343205C4C3A00037A10 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A5033345205C569500037A10 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A588847F20603334003AD7F2 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A503331C205C125E00037A10 /* Assets.xcassets */,
 				A503331E205C125E00037A10 /* LaunchScreen.storyboard */,
 				A5033321205C125E00037A10 /* Info.plist */,
+				A588847F20603334003AD7F2 /* Emoji.swift */,
 			);
 			path = "Swift App";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A588848020603334003AD7F2 /* Emoji.swift in Sources */,
 				A5033344205C4C3A00037A10 /* SecondViewController.swift in Sources */,
 				A5033318205C125E00037A10 /* ViewController.swift in Sources */,
 				A5033346205C569500037A10 /* ThirdViewController.swift in Sources */,
